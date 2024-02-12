@@ -1,34 +1,39 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Hutchinson":
+  - firstname: ["Brian"]
+    url: https://facultyweb.cs.wwu.edu/~hutchib2/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Ayala":
+  - firstname: ["Alex"]
+    url: https://alexayalamcs.github.io/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Nieva":
+  - firstname: "Brenna"
+    url: https://brennanieva.com/#home
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Tebaldi":
+  - firstname: "Claudia"
+    url: https://eesa.lbl.gov/profiles/claudia-tebaldi/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Kravitz":
+  - firstname: "Ben"
+    url: https://climatemodeling.earth.indiana.edu/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Daw":
+  - firstname: "Chris"
+    url: http://www.chrisdaw.net/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Kahng":
+- firstname: "Minsuk"
+  url: https://minsuk.com/
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Lee":
+  - firstname: "Stefan"
+    url: https://web.engr.oregonstate.edu/~leestef/
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Cohen":
+  - firstname: "Scott"
+    url: https://research.adobe.com/person/scott-cohen/
+
+"Kafle":
+  - firstname: "Kushal"
+    url: https://kushalkafle.com/

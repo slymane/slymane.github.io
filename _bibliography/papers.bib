@@ -3,82 +3,81 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
+@article{slyman2024cvpr,
+  abbr = {CVPR},
+  author = {Slyman, Eric and Lee, Stefan and Cohen, Scott and Kafle, Kushal},
+  title = {FairDeDup: Detecting and Mitigating Vision-Language Fairness Disparities in Semantic Dataset Deduplication},
+  journal = {Computer Vision and Patern Recognition [UNDER REVIEW]},
+  month = {June},
+  year = {2024},
+  selected={true},
+  abstract={Recent dataset deduplication techniques have demonstrated that content-aware dataset pruning can dramatically reduce the cost of training Vision-Language Pretrained (VLP) models without significant performance losses compared to training on the original dataset. These results have been based on pruning commonly used image-caption datasets collected from the web -- datasets that are known to harbor harmful social biases that may then be codified in trained models. In this work, we evaluate how deduplication affects the prevalence of these biases in the resulting trained models and introduce an easy-to-implement modification to the recent SemDeDup algorithm that can reduce the negative effects that we observe. When examining CLIP-style models trained on deduplicated variants of LAION-400M, we find our proposed FairDeDup algorithm consistently leads to improved fairness metrics over SemDeDup on the FairFace and FACET datasets while maintaining zero-shot performance on CLIP benchmarks.},
+}
+
+@article{slyman2023neurips,
+  abbr = {NeurIPS},
+  author = {Slyman, Eric and Kafle, Kushal and Cohen, Scott},
+  title = {VALET: Vision-And-LanguagE Testing with Reusable Components},
+  journal = {NeurIPS Queer in AI Workshop},
+  month = {December},
+  year = {2023},
+  selected={true},
+  abstract={Vision-and-Language (ViL) modeling advancements have resulted in significant improvements to aggregate metric performance on a variety of tasks. However, this evaluation may not accurately reflect a model's capability to behave as intended by its creator, or according to the expectations of an end-user. Behavioral testing and sensemaking methods have been identified as effective for surfacing these errors in ViL models, but are limited in practice by their ability to scale to many examples and involved engineering requirements. In order to be practical for ViL tasks and suitable for organizational-level testing, these methods must scale to large sample sizes without requiring costly or repetitive engineering efforts for each individual test case. To address these challenges, we propose VALET, a system designed to rapidly develop scalable behavioral tests for ViL models that offers a high-level interface for non-technical users to perform testing that is supported by a modular system of interoperable components enabling expert users to extend and share testing environments more easily. We present a case study using VALET to evaluate a language-guided model's capability to count in zero-shot image classification.},
+  pdf={valet.pdf},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@article{slyman2023iccv,
+  abbr      = {ICCV},
+  author    = {Slyman, Eric and Kahng, Minsuk and Lee, Stefan},
+  title     = {VLSlice: Interactive Vision-and-Language Slice Discovery},
+  journal   = {International Conference on Computer Vision (ICCV)},
+  month     = {October},
+  year      = {2023},
+  pages     = {15291-15301},
+  selected  = {true},
+  abstract={Recent work in vision-and-language demonstrates that large-scale pretraining can learn generalizable models that are efficiently transferable to downstream tasks. While this may improve dataset-scale aggregate metrics, analyzing performance around hand-crafted subgroups targeting specific bias dimensions reveals systemic undesirable behaviors. However, this subgroup analysis is frequently stalled by annotation efforts, which require extensive time and resources to collect the necessary data. Prior art attempts to automatically discover subgroups to circumvent these constraints but typically leverages model behavior on existing task-specific annotations and rapidly degrades on more complex inputs beyond "tabular" data, none of which study vision-and-language models. This paper presents VLSlice, an interactive system enabling user-guided discovery of coherent representation-level subgroups with consistent visiolinguistic behavior, denoted as vision-and-language slices, from unlabeled image sets. We show that VLSlice enables users to quickly generate diverse high-coherency slices in a user study (n=22) and release the tool publicly.},
+  code={https://github.com/slymane/vlslice},
+  website={/vlslice/},
+  video={https://drive.google.com/file/d/1mOuvjphNb2xNDC7shoGbPwyjbfArwud4/preview},
+  pdf={https://arxiv.org/abs/2309.06703},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@article{ayala2022conditional,
+  abbr={ICLR},
+  title={Conditional Emulation of Global Precipitation With Generative Adversarial Networks},
+  author={Alexis Ayala and Chris Drazic and Seth Bassetti and Eric Slyman and Brenna Nieva and Piper Wolters and Kyle Bittner and Claudia Tebaldi and Ben Kravitz and Brian Hutchinson},
+  journal={ICLR Workshop on AI for Earth and Space Science},
+  year={2022},
+  selected={true},
+  abstract={Climate models encode our knowledge of the Earth system, enabling research on the earth's future climate under alternative assumptions of how human-driven climate forcings, especially greenhouse gas emissions, will evolve. One important use of climate models is to estimate the impacts of climate change on natural and societal systems under these different possible futures. Unfortunately, running many simulations on existing models is extremely computationally expensive. These computational demands are particularly problematic for characterizing extreme events, which are rare and thus demand numerous simulations in order to precisely estimate the relevant climate statistics. In this paper we propose an approach to generating realistic global precipitation requiring orders of magnitude less computation, using a conditional generative adversarial network (GAN) as an emulator of an Earth System Model (ESM). Specifically, we present a GAN that emulates daily precipitation output from a fully coupled ESM, conditioned on monthly mean values. The GAN is trained to produce spatio-temporal samples: 28 days of precipitation in a 92x144 regular grid discretizing the globe. We evaluate the generator by comparing generated and real distributions of precipitation metrics including average precipitation, average fraction of dry days, average dry spell length, and average precipitation above the 90th percentile, finding the generated samples to closely match those of real data, even when conditioned on climate scenarios never seen during training.},
+  pdf={https://ai4earthscience.github.io/iclr-2022-workshop/camera_ready/iclr_2022_ai4ess_30.pdf},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+}
+
+@article{slyman2022finegrained,
+  abbr={AAAI},
+  title={Fine-Grained Classroom Activity Detection from Audio with Neural Networks},
+  author={Eric Slyman and Chris Daw and Morgan Skrabut and Ana Usenko and Brian Hutchinson},
+  journal={AAAI Workshop on AI for Education},
+  year={2022},
+  selected={true},
+  abstract={Instructors are increasingly incorporating student-centered learning techniques in their classrooms to improve learning outcomes. In addition to lecture, these class sessions involve forms of individual and group work, and greater rates of student-instructor interaction. Quantifying classroom activity is a key element of accelerating the evaluation and refinement of innovative teaching practices, but manual annotation does not scale. In this manuscript, we present advances to the young application area of automatic classroom activity detection from audio. Using a university classroom corpus with nine activity labels (e.g., "lecture," "group work," "student question"), we propose and evaluate deep fully connected, convolutional, and recurrent neural network architectures, comparing the performance of mel-filterbank, OpenSmile, and self-supervised acoustic features. We compare 9-way classification performance with 5-way and 4-way simplifications of the task and assess two types of generalization: (1) new class sessions from previously seen instructors, and (2) previously unseen instructors. We obtain strong results on the new fine-grained task and state-of-the-art on the 4-way task: our best model obtains frame-level error rates of 6.2%, 7.7% and 28.0% when generalizing to unseen instructors for the 4-way, 5-way, and 9-way classification tasks, respectively (relative reductions of 35.4%, 48.3% and 21.6% over a strong baseline). When estimating the aggregate time spent on classroom activities, our average root mean squared error is 1.64 minutes per class session, a 54.9% relative reduction over the baseline.},
+  pdf={https://arxiv.org/abs/2107.14369},
+  code={https://github.com/hutchresearch/fine-grained-cad},
+  video={https://drive.google.com/file/d/1z3zw3pmb2qnlbrPLflqRnqgN1xx6z9wg/preview},
+  bibtex_show={true},
+}
+
+@article{ayala21conditioned,
+  abbr={NOAA},
+  title={Conditioned Emulation of Global Climate Models With Generative Adversarial Networks},
+  author={Alex Ayala and Chris Drazic and Eric Slyman and Piper Wolters and Brenna Nieva and Brian Hutchinson and Claudia Tebaldi and Ben Kravitz},
+  journal={NOAA Workshop on Leveraging AI in Envrionmental Sciences},
+  year={2021},
+  selected={true},
+  abstract={Climate models encapsulate our best understanding of the Earth system, allowing research to be conducted on its future under alternative assumptions of how human-driven climate forces are going to evolve. An important application of climate models is to provide metrics of mean and extreme climate changes, particularly under these alternative future scenarios, as these quantities drive the impacts of climate on society and natural systems. Because of the need to explore a wide range of alternative scenarios and other sources of uncertainties in a computationally efficient manner, climate models can only take us so far, as they require significant computational resources, especially when attempting to characterize extreme events, which are rare and thus demand long and numerous simulations in order to accurately represent their changing statistics. Here we demonstrate the capabilities of a Generative Adversarial Network (GAN) emulating a climate model. Our GAN is trained to produce spatio-temporal samples of precipitation and temperature conditioned on spatial monthly averages. We condition our GAN on several climate scenarios and task the generator with producing new realizations. These realizations are then evaluated under several climate metrics (SDII, dryness measures, etc.). Our trained GANs can generate realizations at a vastly reduced computational expense, compared to large ensembles of climate models, which greatly aids in estimating the statistics of extreme events.},
+  video={https://drive.google.com/file/d/1X46_5xMD4tf3MzqsafvoYVksN45YjMYf/preview},
+  bibtex_show={true},
 }

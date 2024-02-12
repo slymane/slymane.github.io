@@ -2,25 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: AI/CS Ph.D Student, Oregon State University
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: me.jpeg
+  image_circular: true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi Folks! I'm a Ph.D. student at the intersection of multimodal AI, human-computer interaction, and fairness in the [Artificial Intelligence](https://eecs.oregonstate.edu/ai-degree-program) and [Computer Science](https://eecs.oregonstate.edu/academics/graduate/cs) programs at Oregon State University where I'm advised by [Stefan Lee](https://web.engr.oregonstate.edu/~leestef/) (and [Minsuk Kahng](https://minsuk.com/) prior to his rellocation to Google).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research evaluates large-scale vision-language models like CLIP, ViLBERT, LLaVA, and DALL-E. I enjoy auditing the real-world steps to get these models in production and determining mitigations to help promote fair outcomes. Frequently, this leads to human-centered methods that consider the entire lifecycle of a model: from data collection to deployment.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In addition to research, I am also the Co-President of OSU's [AI Graduate Student Association](https://www.aigsa.club/) where I organize social and professional events for our AI community and run the [AI Application Support Program](https://www.aigsa.club/aiasp/) to provide application advising assisstance to underrepresented people applying to graduate school.
