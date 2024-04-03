@@ -17,10 +17,10 @@ horizontal: false
 </div>
 
 <div style="width: 100%; display: flex; justify-content: center; font-size: 16px; margin-bottom: 0.5rem;">
-<a style="margin: 5px;" href="https://ericslyman.com/">Eric Slyman <sup>1,2</sup></a>
+<a style="margin: 5px;" href="https://ericslyman.com/">Eric Slyman <sup>1,2*</sup></a>
 <a style="margin: 5px;" href="https://web.engr.oregonstate.edu/~leestef/">Stefan Lee <sup>1</sup></a>
-<a style="margin: 5px;" href="https://research.adobe.com/person/scott-cohen/">Scott Cohen <sup>1</sup></a>
-<a style="margin: 5px;" href="https://kushalkafle.com/">Kushal Kafle <sup>1</sup></a>
+<a style="margin: 5px;" href="https://research.adobe.com/person/scott-cohen/">Scott Cohen <sup>2</sup></a>
+<a style="margin: 5px;" href="https://kushalkafle.com/">Kushal Kafle <sup>2</sup></a>
 </div>
 
 <div style="width: 100%; display: flex; justify-content: center; font-size: 12px;">
@@ -28,6 +28,9 @@ horizontal: false
 <div style="margin: 5px;"><sup>2</sup>Adobe</div>
 </div>
 
+<div style="width: 100%; display: flex; justify-content: center; font-size: 12px;">
+*Work conducted during Slyman’s 2023 summer internship at Adobe
+</div>
 </div>
 
 ## Abstract
