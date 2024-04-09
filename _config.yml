@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Eric Slyman # the website title (if blank, full name will be used instead)
 first_name: Eric
-#middle_name:
-last_name: Slyman
-email:
+# middle_name:
+last_name: Slyman (they/he)
+email: slymane[at]oregonstate[dot]edu
 description: >
 footer_text: >
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
