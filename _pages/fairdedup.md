@@ -13,7 +13,8 @@ horizontal: false
 <img src="/assets/img/fairdedup.svg" alt="FairDeDup" width="100%" style="margin-bottom: 1rem;"/>
 </div>
 <div style="width: 100%; display: flex; justify-content: center; font-size: 25px; margin-bottom: 1rem; flex-direction: row; flex-wrap: wrap;">
-<a style="margin: 5px; pointer-events: none; cursor: default; color: gray;" href="">[ Links Coming Soon ]</a>
+<a style="margin: 5px;" href="{{ '/assets/pdf/fairdedup.pdf' | relative_url }}">[ ai week poster ]</a>
+<a style="margin: 5px; pointer-events: none; cursor: default; color: gray;" href="">[ more links soon ]</a>
 </div>
 
 <div style="width: 100%; display: flex; justify-content: center; font-size: 16px; margin-bottom: 0.5rem;">
