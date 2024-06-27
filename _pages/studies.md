@@ -4,7 +4,7 @@ permalink: /studies/
 title: studies
 description: User study descriptions and registration
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 ## VLSlice
@@ -29,7 +29,7 @@ Sunday, January 1st - Wednesday, March 1st.
 
 ### Registration
 
-[https://vlslice-osueecs.youcanbook.me/](https://vlslice-osueecs.youcanbook.me/)
+**We are no longer accepting participants for this study.**
 
 ### Compensation
 

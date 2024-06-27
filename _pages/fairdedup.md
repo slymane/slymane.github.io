@@ -19,7 +19,7 @@ horizontal: false
 <a style="margin: 5px;" href="{{ '/assets/pdf/fairdedup.pdf' | relative_url }}">[ ai week poster ]</a>
 </div>
 
-<div style="width: 100%; display: flex; justify-content: center; font-size: 16px; margin-bottom: 0.5rem;">
+<div style="width: 100%; display: flex; justify-content: center; font-size: 16px;">
 <a style="margin: 5px;" href="https://ericslyman.com/">Eric Slyman <sup>1,2*</sup></a>
 <a style="margin: 5px;" href="https://web.engr.oregonstate.edu/~leestef/">Stefan Lee <sup>1</sup></a>
 <a style="margin: 5px;" href="https://research.adobe.com/person/scott-cohen/">Scott Cohen <sup>2</sup></a>
@@ -31,9 +31,30 @@ horizontal: false
 <div style="margin: 5px;"><sup>2</sup>Adobe</div>
 </div>
 
-<div style="width: 100%; display: flex; justify-content: center; font-size: 12px;">
+<div style="width: 100%; display: flex; justify-content: center; font-size: 12px; margin-bottom: 1.0rem;">
 *Work conducted during Slyman’s 2023 summer internship at Adobe
 </div>
+
+<div style="width: 100%; display: flex; justify-content: left; font-size: 12px;">
+    <div style="width: 15%; margin-right: 5px;">
+        <b>Media Coverage:</b>
+    </div>
+    <div style="width: 85%; display: flex; flex-direction: column;">
+        <div>
+            <em>"Bias & Representation in AI,"</em> &nbsp; State of Diversity @ OSU
+            <a style="margin: 5px;" href="https://youtu.be/dSyHzdRnaXc?t=2092"> [ featured talk ] </a>
+        </div>
+        <div>
+            <em>"Researchers develop new training technique to make AI systems less socially biased,"</em> &nbsp; OSU Newsroom
+            <a style="margin: 5px;" href="https://today.oregonstate.edu/news/researchers-develop-new-training-technique-aims-make-ai-systems-less-socially-biased">[ article ]</a>
+        </div>
+        <div> 
+            Radio interviews with KLCC (NPR), JPB (NPR), and KEX Radio (iHeartRadio) coming soon!
+        </div>
+    </div>
+</div>
+
+
 </div>
 
 ## Abstract
