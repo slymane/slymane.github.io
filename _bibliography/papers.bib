@@ -1,28 +1,28 @@
 ---
 ---
 
+@article{yang2025hijacking,
+  abbr = {WACV},
+  author = {Yang, Zijiao and Shi, Xiangxi and Slyman, Eric and Lee, Stefan},
+  title = {Hijacking Vision-and-language Navigation Agents with Adversarial Environmental Attacks},
+  journal = {Winter Conference on Applications of Computer Vision},
+  month = {February},
+  year = {2025},
+  selected={false},
+  abstract={Assistive embodied agents that can be instructed in natural language to perform tasks in open-world environments have the potential to significantly impact labor tasks like manufacturing or in-home care -- benefiting the lives of those who come to depend on them. In this work, we consider how this benefit might be hijacked by local modifications in the appearance of the agent's operating environment. Specifically, we take the popular Vision-and-Language Navigation (VLN) task as a representative setting and develop a whitebox adversarial attack that optimizes a 3D attack object's appearance to induce desired behaviors in pretrained VLN agents that observe it in the environment. We demonstrate that the proposed attack can cause VLN agents to ignore their instructions and execute alternative actions after encountering the attack object -- even for instructions and agent paths not considered when optimizing the attack. For these novel settings, we find our attacks can induce early-termination behaviors or divert an agent along an attacker-defined multi-step trajectory. Under both conditions, environmental attacks significantly reduce agent capabilities to successfully follow user instructions.},
+  preview={adversarial.png},
+}
+
 @article{slyman2024quantization,
   abbr = {NeurIPS},
   author = {Slyman, Eric and Kanneganti, Anirudh and Hong, Sanghyun, and Lee, Stefan},
   title = {You Never Know: Quantization Induces Inconsistent Biases in Vision-Language Foundation Models},
-  journal = {NeurIPS Workshop on Responsibiliy Building the Next Generation of Multimodal Foundation Models (under review)},
+  journal = {NeurIPS Workshop on Responsibiliy Building the Next Generation of Multimodal Foundation Models},
   month = {December},
   year = {2024},
   selected={false},
   abstract={We study the impact of a standard practice in compressing foundation vision-language models-quantization-on the models' ability to produce socially-fair outputs. In contrast to prior findings with unimodal models that compression consistently amplifies social biases, our extensive evaluation of four quantization settings across three datasets and three CLIP variants yields a surprising result: while individual models demonstrate bias, we find \emph{no consistent change} in bias magnitude or direction across a population of compressed models due to quantization.},
   preview={quantization.png},
-}
-
-@article{yang2024adversarial,
-  abbr = {NeurIPS},
-  author = {Yang, Zijiao and Shi, Xiangxi and Slyman, Eric and Lee, Stefan},
-  title = {Adversarial Envrionment Attacks on Vision-and-Language Navigation Agents},
-  journal = {Neural Information Processing Systems (under review)},
-  month = {December},
-  year = {2024},
-  selected={false},
-  abstract={Assistive embodied agents that can be instructed in natural language to perform tasks in open-world environments have the potential to significantly impact how all manner of labor gets done -- benefiting the lives of those who come to depend on them. In this work, we consider how this benefit might be disrupted or even diverted by local modifications in the appearance of the agent's operating environment. Specifically, we take the popular Vision-and-Language Navigation (VLN) task as a representative setting and develop a whitebox adversarial attack that optimizes an attack object's appearance to induce desired behaviors in pretrained VLN agents that observe it in the environment. We demonstrate that the proposed attack can cause VLN agents to ignore their instructions and execute alternative actions after encountering the attack object -- even for instructions and agent paths not considered when optimizing the attack. For these novel settings, our attacks can induce early-termination behaviors in ~76% of cases tested or successfully divert an agent along a multi-step attack trajectory in ~20%. In either case, our attacks significantly reduce agent capabilities to successfully follow instructions.},
-  preview={adversarial.png},
 }
 
 @article{slyman2024fairdedup,
