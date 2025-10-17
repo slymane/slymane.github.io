@@ -1,6 +1,22 @@
 ---
 ---
 
+@article{slyman2025judge,
+  abbr = {ICCV},
+  author = {Slyman, Eric and Tanjim, Mehrab and Kafle, Kushal and Lee, Stefan},
+  title = {Calibrating MLLM-as-a-judge via Multiodal Bayesian Prompt Ensembles},
+  journal = {International Conference on Computer Vision},
+  month = {October},
+  year = {2025},
+  selected={true},
+  abstract={Multimodal large language models (MLLMs) are increasingly used to evaluate text-to-image (TTI) generation systems, providing automated judgments based on visual and textual context. However, these "judge" models often suffer from biases, overconfidence, and inconsistent performance across diverse image domains. While prompt ensembling has shown promise for mitigating these issues in unimodal, text-only settings, our experiments reveal that standard ensembling methods fail to generalize effectively for TTI tasks. To address these limitations, we propose a new multimodal-aware method called Multimodal Mixture-of-Bayesian Prompt Ensembles (MMB). Our method uses a Bayesian prompt ensemble approach augmented by image clustering, allowing the judge to dynamically assign prompt weights based on the visual characteristics of each sample. We show that MMB improves accuracy in pairwise preference judgments and greatly enhances calibration, making it easier to gauge the judge's true uncertainty. In evaluations on two TTI benchmarks, HPSv2 and MJBench, MMB outperforms existing baselines in alignment with human annotations and calibration across varied image content. Our findings highlight the importance of multimodal-specific strategies for judge calibration and suggest a promising path forward for reliable large-scale TTI evaluation.},
+  preview={mmb.png},
+  website={/mmb-judge/},
+  pdf={https://arxiv.org/abs/2509.08777},
+  poster={mmb_poster.pdf},
+  bibtex_show={true},
+}
+
 @article{yang2025hijacking,
   abbr = {WACV},
   author = {Yang, Zijiao and Shi, Xiangxi and Slyman, Eric and Lee, Stefan},
@@ -11,6 +27,8 @@
   selected={false},
   abstract={Assistive embodied agents that can be instructed in natural language to perform tasks in open-world environments have the potential to significantly impact labor tasks like manufacturing or in-home care -- benefiting the lives of those who come to depend on them. In this work, we consider how this benefit might be hijacked by local modifications in the appearance of the agent's operating environment. Specifically, we take the popular Vision-and-Language Navigation (VLN) task as a representative setting and develop a whitebox adversarial attack that optimizes a 3D attack object's appearance to induce desired behaviors in pretrained VLN agents that observe it in the environment. We demonstrate that the proposed attack can cause VLN agents to ignore their instructions and execute alternative actions after encountering the attack object -- even for instructions and agent paths not considered when optimizing the attack. For these novel settings, we find our attacks can induce early-termination behaviors or divert an agent along an attacker-defined multi-step trajectory. Under both conditions, environmental attacks significantly reduce agent capabilities to successfully follow user instructions.},
   preview={adversarial.png},
+ bibtex_show={true},
+ pdf={https://arxiv.org/abs/2412.02795}
 }
 
 @article{slyman2024quantization,
@@ -24,6 +42,7 @@
   abstract={We study the impact of a standard practice in compressing foundation vision-language models-quantization-on the models' ability to produce socially-fair outputs. In contrast to prior findings with unimodal models that compression consistently amplifies social biases, our extensive evaluation of four quantization settings across three datasets and three CLIP variants yields a surprising result: while individual models demonstrate bias, we find \emph{no consistent change} in bias magnitude or direction across a population of compressed models due to quantization.},
   preview={quantization.png},
   pdf={https://arxiv.org/abs/2410.20265},
+   bibtex_show={true},
 }
 
 @article{slyman2024fairdedup,
@@ -50,7 +69,7 @@
   journal = {NeurIPS Queer in AI Workshop},
   month = {December},
   year = {2023},
-  selected={true},
+  selected={false},
   abstract={Vision-and-Language (ViL) modeling advancements have resulted in significant improvements to aggregate metric performance on a variety of tasks. However, this evaluation may not accurately reflect a model's capability to behave as intended by its creator, or according to the expectations of an end-user. Behavioral testing and sensemaking methods have been identified as effective for surfacing these errors in ViL models, but are limited in practice by their ability to scale to many examples and involved engineering requirements. In order to be practical for ViL tasks and suitable for organizational-level testing, these methods must scale to large sample sizes without requiring costly or repetitive engineering efforts for each individual test case. To address these challenges, we propose VALET, a system designed to rapidly develop scalable behavioral tests for ViL models that offers a high-level interface for non-technical users to perform testing that is supported by a modular system of interoperable components enabling expert users to extend and share testing environments more easily. We present a case study using VALET to evaluate a language-guided model's capability to count in zero-shot image classification.},
   pdf={valet.pdf},
   poster={valet_poster.jpg},
