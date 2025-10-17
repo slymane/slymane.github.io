@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: ML @ Adobe | AI/CS Ph.D @ Oregon State University
+subtitle: ML @ Adobe | AI/CS PhD @ Oregon State University
 
 profile:
   align: right
@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 I’m an ML Engineer/Researcher at **Adobe**, working on model **evaluation**, **safety/harm mitigation**, and **intelligent prompting** for **Firefly**. I helped launch the newest generation of Firefly’s image generation and editing models, with a focus on **reliable behavior** and **user-intent following** in creative workflows. I’m on [Oliver Brdiczka](https://www.cc.gatech.edu/people/oliver-brdiczka)’s team in Adobe’s Applied Science & Machine Learning org, work closely with the Creative Intelligence Lab in Adobe Research, and collaborate with Legal and Applied Ethics teams to build end-to-end, responsible solutions.
 
-Previously, I completed my Ph.D. at the intersection of multimodal AI, human–computer interaction, and fairness in the [Artificial Intelligence](https://eecs.oregonstate.edu/ai-degree-program) and [Computer Science](https://eecs.oregonstate.edu/academics/graduate/cs) programs at Oregon State University, advised by [Stefan Lee](https://web.engr.oregonstate.edu/~leestef/) (and [Minsuk Kahng](https://minsuk.com/) prior to his move to Google).
+Previously, I completed my PhD at the intersection of multimodal AI, human–computer interaction, and fairness in the [Artificial Intelligence](https://eecs.oregonstate.edu/ai-degree-program) and [Computer Science](https://eecs.oregonstate.edu/academics/graduate/cs) programs at Oregon State University, advised by [Stefan Lee](https://web.engr.oregonstate.edu/~leestef/) (and [Minsuk Kahng](https://minsuk.com/) prior to his move to Google).
 
 My work evaluates large-scale vision–language models (e.g., CLIP, ViLBERT, LLaVA, diffusion-based TTI), audits the real-world steps needed to ship them responsibly, and designs mitigations that promote **reliable, human-centered** outcomes across the model lifecycle—from data and training to deployment and monitoring.
 
