@@ -29,7 +29,7 @@ Beyond research and engineering, I co-led OSU’s [AI Graduate Student Associati
 
 ---
 
-### Public Speaking & Media
+### public speaking & media
 
 I’m passionate about public speaking and outreach (including invited talks at places like **Apple**, **Google**, and **Sony**). A few highlights include:
 
