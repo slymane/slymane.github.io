@@ -14,7 +14,7 @@ horizontal: false
 </div>
 <div style="width: 100%; display: flex; justify-content: center; font-size: 25px; margin-bottom: 1rem; flex-direction: row; flex-wrap: wrap;">
 <a style="margin: 5px;" href="https://arxiv.org/abs/2509.08777">[ pdf ]</a>
-<a style="margin: 5px;" href="{{ '/assets/pdf/mmb_poster.pdf' | relative_url }}">[ poster ]</a>
+<a style="margin: 5px;" href="{{ '/assets/img/mmb_poster.png' | relative_url }}">[ poster ]</a>
 </div>
 
 <div style="width: 100%; display: flex; justify-content: center; font-size: 16px;">
